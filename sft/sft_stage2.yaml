@@ -33,6 +33,6 @@ compute_accuracy: true
 save_total_limit: 1
 weight_decay: 0.05
 report_to: tensorboard
-freeze_vision_tower: true
-freeze_multi_modal_projector: true
+freeze_vision_tower: false
+freeze_multi_modal_projector: false
 cutoff_len: 65536
