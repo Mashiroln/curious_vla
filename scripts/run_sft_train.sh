@@ -5,11 +5,11 @@ set -euo pipefail
 
 PROJECT_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 source "$(conda info --base)/etc/profile.d/conda.sh"
-conda activate curious
+conda activate llamafactory
 cd "$PROJECT_ROOT"
 
 if ! command -v llamafactory-cli >/dev/null 2>&1; then
-    echo "Error: 'llamafactory-cli' was not found in the 'curious' env." >&2
+    echo "Error: 'llamafactory-cli' was not found in the 'llamafactory' env." >&2
     echo "Install LLaMA-Factory into that env first, then rerun this script." >&2
     exit 1
 fi
