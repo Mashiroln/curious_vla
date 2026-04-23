@@ -13,7 +13,8 @@ Usage:
 This script:
   - creates `curious` (Python 3.10)
   - installs EasyR1 into `curious`
-  - clones `LLaMA-Factory/` if missing, then installs it into `curious`
+  - creates `llamafactory` (Python 3.11)
+  - clones `LLaMA-Factory/` if missing, then installs it into `llamafactory`
   - creates `navsim` from `navsim_eval/environment.yml`
   - installs `navsim_eval` into `navsim`
 
@@ -34,6 +35,12 @@ fi
 
 conda activate curious
 pip install -e "$PROJECT_ROOT/EasyR1"
+conda deactivate
+
+echo "Setting up llamafactory..."
+if ! conda env list | grep -qw "^llamafactory"; then
+    conda create -n llamafactory python=3.11 -y
+fi
 
 if [[ ! -d "$LLAMAFACTORY_ROOT/.git" ]]; then
     if [[ -e "$LLAMAFACTORY_ROOT" ]]; then
@@ -43,6 +50,7 @@ if [[ ! -d "$LLAMAFACTORY_ROOT/.git" ]]; then
     git clone --depth 1 "$LLAMAFACTORY_REPO_URL" "$LLAMAFACTORY_ROOT"
 fi
 
+conda activate llamafactory
 pip install -e "$LLAMAFACTORY_ROOT"
 conda deactivate
 
