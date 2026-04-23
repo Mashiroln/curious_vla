@@ -1,10 +1,10 @@
 #!/bin/bash
 set -euo pipefail
 source "$(conda info --base)/etc/profile.d/conda.sh"
-conda activate curious
+conda activate llamafactory
 
 if ! command -v llamafactory-cli >/dev/null 2>&1; then
-  echo "Error: 'llamafactory-cli' was not found in the 'curious' env."
+  echo "Error: 'llamafactory-cli' was not found in the 'llamafactory' env."
   echo "Install LLaMA-Factory into that env first."
   exit 1
 fi
