@@ -13,6 +13,7 @@
 
 ## News 
 
+- 🎉 Our New work ***Coarse-to-Refine: Trajectory Self-Refinement in Single Autoregressive Pass for Driving VLA* has been accepted to NeuIPS'26**. Coarse-to-Refine is a successor to CuriousVLA, code will be released soon in this repo.
 - 🎉 **CuriousVLA has been accepted to CVPR'26 Findings.** CuriousVLA can serve as a strong MLLM auto-regressive driving baseline.
 
 ## Release
