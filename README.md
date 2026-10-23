@@ -1,20 +1,16 @@
 <div align="center">
-
-# Curious-VLA
-
-### Devil is in Narrow Policy: Unleashing Exploration in Driving VLA Models
-
-[![arXiv](https://img.shields.io/badge/arXiv-2603.06049-b31b1b.svg)](https://arxiv.org/abs/2603.06049)
-[![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-yellow)](https://huggingface.co/MashiroLn/Curious-VLA)
-[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
-[![CVPR](https://img.shields.io/badge/CVPR%202026-Findings-blue.svg)]()
-
+<h1>Curious-VLA & Coarse-to-Refine
+</h1>
 </div>
 
-## News 
+## News
 
-- 🎉 Our New work ***Coarse-to-Refine: Trajectory Self-Refinement in Single Autoregressive Pass for Driving VLA* has been accepted to NeurIPS'26**. Coarse-to-Refine is a successor to CuriousVLA, code will be released soon in this repo.
-- 🎉 **CuriousVLA has been accepted to CVPR'26 Findings.** CuriousVLA can serve as a strong MLLM auto-regressive driving baseline.
+- 🎉 **Coarse-to-Refine: Trajectory Self-Refinement in Single Autoregressive Pass for Driving VLA** has been accepted to **NeurIPS 2026**. Coarse-to-Refine is a successor to Curious-VLA; code will be released in this repository.
+  <br>
+  [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE) [![NeurIPS 2026](https://img.shields.io/badge/NeurIPS%202026-Poster-blue.svg)](https://neurips.cc/virtual/2026/loc/sydney/poster/154559)
+- 🎉 **Curious-VLA — Devil is in Narrow Policy: Unleashing Exploration in Driving VLA Models** has been accepted to **CVPR 2026 Findings**. Curious-VLA can serve as a strong MLLM auto-regressive driving baseline.
+  <br>
+  [![arXiv](https://img.shields.io/badge/arXiv-2603.06049-b31b1b.svg)](https://arxiv.org/abs/2603.06049) [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-yellow)](https://huggingface.co/MashiroLn/Curious-VLA) [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE) [![CVPR](https://img.shields.io/badge/CVPR%202026-Findings-blue.svg)](https://cvpr.thecvf.com/virtual/2026/poster/40618)
 
 ## Release
 
